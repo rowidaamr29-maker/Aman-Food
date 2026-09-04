@@ -34,6 +34,40 @@ An enterprise-grade AI observatory and forecasting platform for Egyptian commodi
 ## 🚀 Quickstart & Local Installation
 
 ### 1. Clone the Repository
+
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/aman-food-price-intelligence.git
-cd aman-food-price-intelligence
+git clone https://github.com/rowidaamr29-maker/Aman-Food.git
+cd Aman-Food
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+**macOS / Linux:**
+
+```bash
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Application
+
+```bash
+streamlit run app/app.py
+```
