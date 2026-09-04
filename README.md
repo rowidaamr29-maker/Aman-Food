@@ -1,6 +1,6 @@
 # 🇪🇬 AMAN | Egypt Food Price Intelligence Platform
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aman-food-price-intelligence-v2-e8c3mfcsgevy4qteqfmebd.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python)](https://www.python.org/)
 [![CatBoost](https://img.shields.io/badge/Model-CatBoost%20Regressor-brightgreen)](https://catboost.ai/)
 [![R2 Score](https://img.shields.io/badge/R2%20Score-99.04%25-success)](#)
