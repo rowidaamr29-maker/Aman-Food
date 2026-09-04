@@ -60,13 +60,7 @@ Activate it:
 source .venv/bin/activate
 ```
 
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Streamlit Application
+### 3. Run the Streamlit Application
 
 ```bash
 streamlit run app/app.py
