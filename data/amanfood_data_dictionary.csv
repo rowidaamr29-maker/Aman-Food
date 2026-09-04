@@ -1,0 +1,57 @@
+﻿Feature,Data_Type,Description
+Series_ID,str,Unique Market × Commodity time-series identifier
+Date,datetime64[us],Daily observation date
+Year,int16,Calendar year
+Month,int8,Calendar month
+Quarter,int8,Calendar quarter
+Week,int8,ISO week number
+DayOfWeek,int8,"Day of week, Monday=0"
+DayOfYear,int16,Day number within year
+Season,str,Synthetic seasonal classification
+Is_Ramadan,int8,Approximate Ramadan indicator
+Annual_Sin,float32,Continuous annual seasonal sine component
+Annual_Cos,float32,Continuous annual seasonal cosine component
+Governorate,str,Egyptian governorate
+Region,str,Broad geographic region
+Market,str,Synthetic market identifier
+Market_Type,str,"Wholesale, Retail or Supermarket"
+Latitude,float64,Approximate synthetic market latitude
+Longitude,float64,Approximate synthetic market longitude
+Distance_From_Cairo_KM,float32,Approximate geographic distance from Cairo
+Logistics_Score,float64,Synthetic logistics efficiency score
+Urbanization,float64,Synthetic urbanization indicator
+Commodity,str,Food commodity
+Category,str,Commodity category
+Unit,str,Price measurement unit
+Inflation_Index,float32,Synthetic macroeconomic inflation index
+Supply_Level,float32,Synthetic supply availability score
+Demand_Level,float32,Synthetic demand pressure score
+Supply_Demand_Gap,float32,Demand minus supply
+Supply_Demand_Ratio,float32,Demand divided by supply
+Transport_Cost,float32,Synthetic transportation cost
+Price_EGP,float32,Simulated market price in EGP
+Price_Lag_1,float32,Price at t-1
+Price_Lag_2,float32,Price at t-2
+Price_Lag_7,float32,Price at t-7
+Price_Lag_8,float32,Price at t-8
+Price_Change_1D_Pct,float32,Historical price change from t-2 to t-1
+Price_Change_7D_Pct,float32,Historical price change from t-8 to t-1
+Rolling_Mean_7,float32,Mean price over previous 7 observations
+Rolling_Std_7,float32,Price volatility over previous 7 observations
+Rolling_Mean_30,float32,Mean price over previous 30 observations
+Rolling_Std_30,float32,Price volatility over previous 30 observations
+Historical_Min,float32,Historical minimum price excluding current observation
+Historical_Max,float32,Historical maximum price excluding current observation
+Historical_Median,float32,Historical median price excluding current observation
+Expected_Price,float32,Historical expected normal price
+Expected_Lower,float32,Lower expected historical price boundary
+Expected_Upper,float32,Upper expected historical price boundary
+Observed_User_Price,float32,Synthetic price reported by a user
+Price_Deviation_Percent,float32,User price deviation from expected price
+Price_ZScore,float32,User price deviation standardized by historical volatility
+Is_Anomaly,int8,Anomaly flag based on absolute z-score >= 2
+Price_Status,str,Categorical price assessment
+Target_Price_1D,float32,Next-day market price; primary forecasting target
+Target_Price_Change_1D_Pct,float32,Next-day percentage price change
+Target_Price_Direction,str,"Next-day direction: Up, Down or Stable"
+Split,str,"Temporal ML split: Train, Validation or Test"
